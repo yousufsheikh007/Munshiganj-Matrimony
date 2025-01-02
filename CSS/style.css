@@ -48,27 +48,28 @@ footer {
     background: url(../Images/photo-collage.png.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 719px;
+    background-attachment: fixed;
 }
 .hero-overlay{
     background: rgba(0, 0, 0, 0.3);
-    height: 719px;
+    height: 800px;
 }
 
 
 .hero-section h1 {
-    font-size: 3rem; /* Larger font size for title */
-    font-weight: 700; /* Bold text for title */
-    margin-bottom: 10px; /* Space below the title */
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Shadow for standout effect */
+    
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFD700; /* গোল্ডেন কালার */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 15px;
 }
 
 .hero-section p {
-    font-size: 1.5rem; /* Medium font size for subtitle */
-    font-weight: 300; /* Light weight for a modern look */
-    margin: 0;
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4); /* Subtle shadow effect */
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 
