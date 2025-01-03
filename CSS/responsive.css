@@ -8,6 +8,30 @@
     .hero-section p{
         font-size: 15px;
     }
+    .search-box {
+        background: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        margin: 0 15px;
+        margin-top: -50px;
+
+    }
+
+    .hero {
+
+        background: url(../Images/photo-collage.png.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .hero-overlay{
+        background: rgba(0, 0, 0, 0.3);
+        height: 700px;
+    }
+    
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
