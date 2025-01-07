@@ -1,76 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Tiro+Bangla:ital@0;1&display=swap');
+@font-face {
+    font-family: 'Ekushey-Lekhani';
+    src: url('../fonts/Ekushey-Lekhani/Ekushey-Lekhani_04-06-2018.ttf') format('truetype');
+}
 
-/* Global Styling */
-body {
-    font-family: 'Poppins', sans-serif;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    background: #f8f9fa;
+@font-face {
+    font-family: 'Ekushey-Alo';
+    src: url('../fonts/ekushey-alo/Ekusher-Alo.ttf') format('truetype');
 }
-/* Navbar Styling */
-.navbar {
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+@font-face {
+    font-family: 'SolaimanLipi';
+    src: url('../fonts/SolaimanLipi/SolaimanLipi-Normal.ttf') format('truetype');
 }
-.navbar .navbar-brand {
-    font-weight: 700;
-    color: #780783;
+@font-face {
+    font-family: 'ShohidShafkatSamir';
+    src: url('../fonts/ShohidShafkatSamir/Li\ Shohid\ Shafkat\ Samir\ Unicode.ttf') format('truetype');
 }
-.navbar .nav-link {
-    color: #333;
-    font-weight: 500;
+@font-face {
+    font-family: 'Alinur_Shishir';
+    src: url('../fonts/AlinurShishir/Unicode/Li\ Alinur\ Shishir\ Unicode\ Italic.ttf') format('truetype');
 }
-.navbar .nav-link:hover {
-    color: #780783;
+
+body{
+    font-family: 'SolaimanLipi';
+    background-color: #f8f9fa;
 }
+
+
+.navbar-logo {
+    height: 50px;   /* লোগোর উচ্চতা কাস্টমাইজ করুন */
+    width: auto;    /* প্রপার প্রপোরশনে রঙটি রেখে দিন */
+}
+
+
 .hero-section {
-    padding: 100px 0;
-    color: #f8f3f8;
+    background-image: url('../images/aaaaaaaaaa.png'); /* এখানে আপনার ইমেজ পাথ দিন */
+    background-size: cover; /* ইমেজ পুরো সেকশনের উপর প্রসারিত হবে */
+    background-position: center; /* ইমেজ সেন্টারে থাকবে */
+    background-repeat: no-repeat; /* ইমেজ রিপিট করবে না */
+    padding: 261px 20px;
     text-align: center;
-    
+    color: #fff; /* টেক্সটের রঙ সাদা করার জন্য */
 }
-.search-box {
-    background: #fff;
-    padding: 30px;
+
+.hero-text-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 65px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 1000px;
-    margin: auto;
-}
-footer {
-    padding: 20px 0px;
-    background: #242324;
-    color: white;
-}
-
-.hero {
-
-    background: url(../Images/photo-collage.png.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.hero-overlay{
-    background: rgba(0, 0, 0, 0.3);
-    height: 800px;
-}
-
-
-.hero-section h1 {
+    text-align: center;
+    color: #fff;
+    max-width: 885px;
+    margin: -192px auto 20px;
+    position: relative;
     
-    font-size: 4rem;
-    font-weight: 700;
-    color: #FFD700; /* গোল্ডেন কালার */
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
-    margin-bottom: 15px;
 }
 
-.hero-section p {
-    font-size: 2rem;
+.hero-text-box h1 {
+    font-size: 2.5rem; /* হেডিং-এর সাইজ */
+    margin-bottom: 10px; /* নিচের মার্জিন */
+    font-family: 'Alinur_Shishir';
+    color:#FFD700;
+}
+
+.hero-text-box p {
+    font-size: 1.2rem; /* প্যারাগ্রাফের ফন্ট সাইজ */
+    margin-bottom: 10px; /* নিচের মার্জিন */
+}
+
+.search-box {
+    background-color: rgba(255, 255, 255, 0.9); /* হালকা সাদা ব্যাকগ্রাউন্ড */
+    padding: 30px; /* বক্সের ভিতরের স্পেস */
+    border-radius: 10px; /* বক্সের কোণ গোলাকার */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* হালকা ছায়া */
+    max-width: 800px; /* বক্সের প্রস্থ */
+    margin: 30px auto; /* সেন্টারে রাখার জন্য */
+}
+
+.search-box h2 {
+    color: #333; /* হেডিং টেক্সটের রঙ */
+    font-size: 1.8rem;
     font-weight: 400;
-    color: #FFFFFF;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    font-family: 'ShohidShafkatSamir';
+}
+
+.form-select {
+    font-size: 1rem; /* সিলেক্ট বক্সের ফন্ট সাইজ */
+    padding: 10px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background: linear-gradient(90deg, #FF69B4, #FF1493); /* পিংক গ্রেডিয়েন্ট */
+    border: none;
+    border-radius: 5px;
+    color: #fafafa;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #FF1493, #FF69B4); /* হোভার ইফেক্টে উল্টানো পিংক গ্রেডিয়েন্ট */
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
 
 
+
+
+
+
+
+
+        .steps-section {
+            padding: 40px 20px;
+        }
+
+        .feedback-section {
+            padding: 40px 20px;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+ 

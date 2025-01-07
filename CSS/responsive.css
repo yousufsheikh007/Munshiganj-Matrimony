@@ -10,21 +10,20 @@
     }
     .search-box {
         background: #fff;
-        padding: 15px;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         max-width: 800px;
-        margin: 0 15px;
+        margin: 0px 47px;
         margin-top: -50px;
 
     }
 
     .hero {
 
-        background: url(../Images/photo-collage.png.png);
-        background-size: cover;
+        background: url(../Images/kella2.jpg);
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-size: cover;
+      
     }
     .hero-overlay{
         background: rgba(0, 0, 0, 0.3);

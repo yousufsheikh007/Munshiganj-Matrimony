@@ -4,39 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Munshiganj Matrimony</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/responsive.css">
-    
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#"><p class="logo">Munshiganj Matrimony</p></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <!-- লোগো ইমেজ ব্যবহার -->
+            <a class="navbar-brand" href="#">
+                <img src="Images/logo/1-removebg-preview.png" alt="Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#profiles">Profiles</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">হোম</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">আমাদের সম্পর্কে</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">জিজ্ঞাসা</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#instructions">নির্দেশনা</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">যোগাযোগ</a>
+                    </li>
                 </ul>
+                <button class="btn btn-primary">লগ ইন</button>
             </div>
         </div>
     </nav>
-
-    <section class="hero">
-       <div class="hero-overlay">
-        <section class="hero-section">
-            <div class="container">
-                <h1>আপনার জীবনের সঙ্গী খুঁজুন মুন্সীগঞ্জে</h1>
-                <p>মুন্সীগঞ্জে হৃদয়ের সঙ্গে হৃদয়ের বন্ধন</p>
-            </div>
-        </section>
     
-        <section class="search-box">
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-text-box">
+            <h1>আপনার জীবন সঙ্গী খুঁজুন মুন্সীগঞ্জে</h1>
+            <p> মুন্সীগঞ্জে হৃদয়ের সঙ্গে হৃদয়ের বন্ধন <br>আমরাই প্রথম মুন্সীগঞ্জে অনলাইন পাত্র-পাত্রীর খোঁজার প্ল্যাটফর্ম খুব সহজেই এবং কম সময়ে।</p>
+        </div>
+        <div class="search-box">
             <h2 class="mb-4 text-center">আপনার স্বপ্নের সঙ্গী খুঁজুন</h2>
             <form class="row g-3">
                 <div class="col-md-3">
@@ -84,15 +97,99 @@
                     <button type="submit" class="btn btn-primary">অনুসন্ধান করুন</button>
                 </div>
             </form>
-        </section>
-        
-       </div>
-    </section>
+        </div>
+    </div>
 
-    <footer class="text-center">
-        <p>&copy; 2025 Munshiganj Matrimony. All rights reserved.</p>
+    <!-- Bio Section -->
+    <div class="text-center py-5">
+        <h2>বিনামূল্যে বায়োডাটা তৈরি করুন</h2>
+        <div class="mt-4">
+            <button class="btn btn-outline-primary me-2">+ বায়োডাটা তৈরি করুন</button>
+            <button class="btn btn-outline-secondary">কিভাবে বায়োডাটা তৈরি করবেন</button>
+        </div>
+    </div>
+
+    <!-- Steps Section -->
+    <div class="steps-section text-center">
+        <div class="container">
+            <h2 class="mb-4">Munshiganj Matrimony যে ভাবে কাজ করে</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">বায়োডাটা তৈরি করুন</h5>
+                            <p class="card-text">খুব সহজেই বিনামূল্যে বায়োডাটা তৈরি করতে পারবেন।</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">বায়োডাটা খুঁজুন</h5>
+                            <p class="card-text">বয়স, উপজেলা, পেশা, শিক্ষাগত যোগ্যতা সহ অনেক ফিল্টার ব্যবহার করে সহজেই বায়োডাটা খুঁজতে পারবেন।</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">যোগাযোগ করুন</h5>
+                            <p class="card-text">অভিভাবকের সাথে সরাসরি যোগাযোগ করুন।</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">বিবাহ সম্পন্ন করুন</h5>
+                            <p class="card-text">নিজ দায়িত্বে খোঁজ নিয়ে বিবাহ সম্পন্ন করুন।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback Section -->
+    <div class="feedback-section">
+        <div class="container">
+            <h2 class="text-center mb-4">সফলদের ফিডব্যাক</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Munshiganj Matrimony এর মাধ্যমে আমি আমার জীবনসঙ্গী পেয়েছি। ধন্যবাদ।"</p>
+                            <p class="text-muted">- রাহাত</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"খুব দ্রুত এবং সহজে জীবনসঙ্গী খুঁজতে পেরেছি।"</p>
+                            <p class="text-muted">- শীলা</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"বিশ্বস্ত এবং ইউজার ফ্রেন্ডলি প্ল্যাটফর্ম।"</p>
+                            <p class="text-muted">- তানভীর</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Munshiganj Matrimony. সর্বস্বত্ব সংরক্ষিত।</p>
+        </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
