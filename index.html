@@ -6,11 +6,12 @@
     <title>Munshiganj Matrimony</title>
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
         <div class="container">
             <!-- লোগো ইমেজ ব্যবহার -->
             <a class="navbar-brand" href="#">
@@ -20,12 +21,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">হোম</a>
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./index.html">হোম</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">আমাদের সম্পর্কে</a>
+                        <a class="nav-link" href="./about.html">আমাদের সম্পর্কে</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#faq">জিজ্ঞাসা</a>
@@ -101,94 +102,125 @@
     </div>
 
     <!-- Bio Section -->
-    <div class="text-center py-5">
-        <h2>বিনামূল্যে বায়োডাটা তৈরি করুন</h2>
-        <div class="mt-4">
-            <button class="btn btn-outline-primary me-2">+ বায়োডাটা তৈরি করুন</button>
-            <button class="btn btn-outline-secondary">কিভাবে বায়োডাটা তৈরি করবেন</button>
-        </div>
+    <div class="text-center py-5 bg-light">
+    <h2 class="headingtext">বিনামূল্যে বায়োডাটা তৈরি করুন</h2> 
+    <p class="mt-3 text-muted">সহজেই আপনার পছন্দ অনুযায়ী পেশাদার বায়োডাটা তৈরি করুন।</p>
+    <div class="mt-4">
+        <!-- বাটনগুলো একই সাইজ -->
+        <button class="btn btn-primary btn-lg me-2 shadow rounded-5 px-5">+ বায়োডাটা তৈরি করুন</button>
+        <a href="https://www.youtube.com/watch?v=-L-FRt0d8Zk&t=122s"><button class="btn btn-outline-secondary btn-lg shadow rounded-5">কিভাবে বায়োডাটা তৈরি করবেন</button></a>
     </div>
+    </div>
+
 
     <!-- Steps Section -->
-    <div class="steps-section text-center">
-        <div class="container">
-            <h2 class="mb-4">Munshiganj Matrimony যে ভাবে কাজ করে</h2>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">বায়োডাটা তৈরি করুন</h5>
-                            <p class="card-text">খুব সহজেই বিনামূল্যে বায়োডাটা তৈরি করতে পারবেন।</p>
-                        </div>
+    <div class="steps-section text-center py-5 bg-light">
+    <div class="container">
+        <h2 class="mb-5 headingtext"> <span class="MunshiganjMatrimony" >Munshiganj Matrimony</span> যে ভাবে কাজ করে</h2>
+        <div class="row g-4">
+            <!-- Step 1 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="step-card">
+                    <div class="icon-container">
+                        <img src="./Images/Icon/Create.png" alt="বায়োডাটা তৈরি করুন">
                     </div>
+                    <h5 class="fw-bold mt-3">বায়োডাটা তৈরি করুন</h5>
+                    <p class="text-muted">খুব সহজেই বিনামূল্যে বায়োডাটা তৈরি করতে পারবেন।</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">বায়োডাটা খুঁজুন</h5>
-                            <p class="card-text">বয়স, উপজেলা, পেশা, শিক্ষাগত যোগ্যতা সহ অনেক ফিল্টার ব্যবহার করে সহজেই বায়োডাটা খুঁজতে পারবেন।</p>
-                        </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="step-card">
+                    <div class="icon-container">
+                        <img src="./Images/Icon/serach.png" alt="বায়োডাটা খুঁজুন">
                     </div>
+                    <h5 class="fw-bold mt-3">বায়োডাটা খুঁজুন</h5>
+                    <p class="text-muted">বয়স, উপজেলা, পেশা, শিক্ষাগত যোগ্যতা সহ সহজেই বায়োডাটা খুঁজতে পারবেন।</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">যোগাযোগ করুন</h5>
-                            <p class="card-text">অভিভাবকের সাথে সরাসরি যোগাযোগ করুন।</p>
-                        </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="step-card">
+                    <div class="icon-container">
+                        <img src="./Images/Icon/Contact.png" alt="যোগাযোগ করুন">
                     </div>
+                    <h5 class="fw-bold mt-3">যোগাযোগ করুন</h5>
+                    <p class="text-muted">অভিভাবকের সাথে সরাসরি যোগাযোগ করুন।</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">বিবাহ সম্পন্ন করুন</h5>
-                            <p class="card-text">নিজ দায়িত্বে খোঁজ নিয়ে বিবাহ সম্পন্ন করুন।</p>
-                        </div>
+            </div>
+            <!-- Step 4 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="step-card">
+                    <div class="icon-container">
+                        <img src="./Images/Icon/Complete.png" alt="বিবাহ সম্পন্ন করুন">
                     </div>
+                    <h5 class="fw-bold mt-3">বিবাহ সম্পন্ন করুন</h5>
+                    <p class="text-muted">নিজ দায়িত্বে খোঁজ নিয়ে বিবাহ সম্পন্ন করুন।</p>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    
 
     <!-- Feedback Section -->
-    <div class="feedback-section">
-        <div class="container">
-            <h2 class="text-center mb-4">সফলদের ফিডব্যাক</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-text">"Munshiganj Matrimony এর মাধ্যমে আমি আমার জীবনসঙ্গী পেয়েছি। ধন্যবাদ।"</p>
-                            <p class="text-muted">- রাহাত</p>
-                        </div>
+    <div class="feedback-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 headingtext">সফলদের ফিডব্যাক</h2>
+        <div class="row g-4">
+            <!-- Feedback 1 -->
+            <div class="col-md-4">
+                <div class="feedback-card shadow rounded-4 p-4 text-center">
+                    <div class="feedback-rating mb-3">
+                        ★★★★★
                     </div>
+                    <p class="feedback-text">"Munshiganj Matrimony এর মাধ্যমে আমি আমার জীবনসঙ্গী পেয়েছি। ধন্যবাদ।"</p>
+                    <p class="feedback-author text-muted fw-bold">- রাহাত</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-text">"খুব দ্রুত এবং সহজে জীবনসঙ্গী খুঁজতে পেরেছি।"</p>
-                            <p class="text-muted">- শীলা</p>
-                        </div>
+            </div>
+            <!-- Feedback 2 -->
+            <div class="col-md-4">
+                <div class="feedback-card shadow rounded-4 p-4 text-center">
+                    <div class="feedback-rating mb-3">
+                        ★★★★★
                     </div>
+                    <p class="feedback-text">"খুব দ্রুত এবং সহজে জীবনসঙ্গী খুঁজতে পেরেছি।"</p>
+                    <p class="feedback-author text-muted fw-bold">- শীলা</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-text">"বিশ্বস্ত এবং ইউজার ফ্রেন্ডলি প্ল্যাটফর্ম।"</p>
-                            <p class="text-muted">- তানভীর</p>
-                        </div>
+            </div>
+            <!-- Feedback 3 -->
+            <div class="col-md-4">
+                <div class="feedback-card shadow rounded-4 p-4 text-center">
+                    <div class="feedback-rating mb-3">
+                        ★★★★★
                     </div>
+                    <p class="feedback-text">"বিশ্বস্ত এবং ইউজার ফ্রেন্ডলি প্ল্যাটফর্ম।"</p>
+                    <p class="feedback-author text-muted fw-bold">- তানভীর</p>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+
+
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Munshiganj Matrimony. সর্বস্বত্ব সংরক্ষিত।</p>
+    <footer>
+        <div class="logo">
+            <img src="Images/logo/1-removebg-preview.png" alt="Logo" id="logo-image">
+        </div>
+        <div class="contact-info">
+            <p>Email: munshiganjmatrimony@gmail.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="#" target="_blank" id="facebook-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank" id="youtube-link"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="copyright">
+            <p>&copy; Munshiganj Matrimony 2025</p>
         </div>
     </footer>
+  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

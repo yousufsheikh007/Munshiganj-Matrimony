@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Galada&family=Tiro+Bangla:ital@0;1&display=swap');
+
 @font-face {
     font-family: 'Ekushey-Lekhani';
     src: url('../fonts/Ekushey-Lekhani/Ekushey-Lekhani_04-06-2018.ttf') format('truetype');
@@ -21,19 +21,36 @@
     font-family: 'Alinur_Shishir';
     src: url('../fonts/AlinurShishir/Unicode/Li\ Alinur\ Shishir\ Unicode\ Italic.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'AlinurNiladri';
+    src: url('../fonts/AlinurNiladri/Unicode/Li\ Alinur\ Niladri\ Unicode.ttf') format('truetype');
+}
 
 body{
     font-family: 'SolaimanLipi';
     background-color: #f8f9fa;
 }
 
-
+/* Navigation section */
 .navbar-logo {
     height: 50px;   /* লোগোর উচ্চতা কাস্টমাইজ করুন */
     width: auto;    /* প্রপার প্রপোরশনে রঙটি রেখে দিন */
 }
 
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar .nav-link {
+    color: #5b5b5b;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.navbar .nav-link:hover {
+    color: #d63384; /* Pink hover color */
+}
 
+/* hero-section */
 .hero-section {
     background-image: url('../images/aaaaaaaaaa.png'); /* এখানে আপনার ইমেজ পাথ দিন */
     background-size: cover; /* ইমেজ পুরো সেকশনের উপর প্রসারিত হবে */
@@ -94,7 +111,7 @@ body{
     font-size: 1.1rem;
     background: linear-gradient(90deg, #FF69B4, #FF1493); /* পিংক গ্রেডিয়েন্ট */
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     color: #fafafa;
     font-weight: bold;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -109,25 +126,225 @@ body{
 }
 
 
+.steps-section {
+    padding: 40px 20px;
+    }
+
+    
+.step-card {
+        background: #ffffff;
+        border-radius: 20px; /* গোলাকার কোণ */
+        padding: 40px;
+        box-shadow: 0 8px 15px rgba(255, 192, 203, 0.2); /* পিঙ্ক শেড */
+        transition: transform 0.3s, box-shadow 0.3s;
+        height: 100%; /* সমান সাইজ */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.step-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 20px rgba(255, 192, 203, 0.4); /* হোভার অবস্থায় শ্যাডো আরও গভীর */
+    }
+    
+.icon-container {
+        background: linear-gradient(135deg, #ff9a9e, #fecfef); /* পিঙ্ক গ্রেডিয়েন্ট */
+        padding: 20px;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.icon-container img {
+        width: 80px;
+        height: 80px;
+    }
+    
+.step-card h5 {
+        color: #333333;
+    }
+    
+.step-card p {
+        font-size: 14px;
+        color: #666666;
+        text-align: center;
+    }
+    
+.row.g-4 > .col-lg-3 {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+/* footer Section */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    }
 
 
+.headingtext{
+    font-size: 2.5rem;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Ekushey-Lekhani';
+    font-style: italic;
+}
+.MunshiganjMatrimony{
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Ekushey-Lekhani';
+    font-style: italic;
+    font-weight: bolder;
+    background: linear-gradient(to right, #ff7eb3, #ff758c, #ff4e63);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* feedback section */
+.feedback-section {
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+.feedback-heading {
+    font-size: 2.5rem;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-card {
+    background: #ffffff;
+    border: 2px solid #ff69b4; /* পিংক স্ট্রোক */
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    height: 100%; /* কার্ড সমান উচ্চতা নিশ্চিত */
+}
+
+.feedback-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-rating {
+    font-size: 3rem;
+    color: #ff69b4; /* স্টার রেটিং পিংক রঙে */
+    letter-spacing: 2px;
+}
+
+.feedback-text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.feedback-author {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #999;
+}
+
+/* Footer Styles */
+footer {
+    padding: 50px 0;
+    text-align: center;
+    font-style: italic;
+
+}
+footer .logo img {
+        width: 248px;
+        height: 55px;
+        margin-bottom: 9px;
+}
+footer .contact-info {
+    margin-bottom: 10px;
+}
+footer .social-icons {
+    margin: 15px 0;
+}
+footer .social-icons a {
+    margin: 0 10px;
+    color: #d63384; /* Pink color */
+    font-size: 24px;
+    text-decoration: none;
+}
+footer .social-icons a:hover {
+    color: #be256e; /* Darker pink on hover */
+}
+footer .copyright {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #6c757d;
+}
 
 
+/* About us page css */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+/* About Section Container */
+.about-container {
+    border: 3px solid #ff2599;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    padding: 20px; /* Padding কমানো হয়েছে */
+    margin: 0 auto; /* Center রাখতে */
+    max-width: 900px; /* Container এর প্রস্থ নির্ধারণ */
+    background-color: #f8f9fa;
+}
 
 
+/* Section Title */
+.about-container h2 {
+    color: #ff2599;
+    font-weight: bold;
+}
 
-        .steps-section {
-            padding: 40px 20px;
-        }
+/* Arabic Text */
+.arabic-text {
+    font-family: 'Amiri', serif;
+    font-size: 1.5rem;
+    color: #ff2599; /* Pink color for Arabic text */
+}
 
-        .feedback-section {
-            padding: 40px 20px;
-        }
+/* About Section Paragraph */
+.about-container p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
 
-        .footer {
-            background-color: #343a40;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
- 
+/* Contact Section */
+.about-container h5 {
+    color: #ff2599;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-details a {
+    color: inherit; /* Parent color এর সাথে মিলিয়ে দেওয়া */
+    text-decoration: none; /* আন্ডারলাইন সরিয়ে দেওয়া */
+    font-size: 1rem;
+}
+
+.contact-details a:hover {
+    color: #ff2599;; /* হোভার করার সময় হালকা রঙ দেওয়া */
+}
+
