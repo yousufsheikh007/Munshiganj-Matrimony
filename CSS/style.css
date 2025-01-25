@@ -62,7 +62,7 @@ ul.navbar-nav.m-auto {
 
 /* hero-section */
 .hero-section {
-    background-image: url('../images/photo-collage.png.png'); /* এখানে আপনার ইমেজ পাথ দিন */
+    background-image: url('../images/Herobg.png'); /* এখানে আপনার ইমেজ পাথ দিন */
     background-size: cover; /* ইমেজ পুরো সেকশনের উপর প্রসারিত হবে */
     background-position: center; /* ইমেজ সেন্টারে থাকবে */
     background-repeat: no-repeat; /* ইমেজ রিপিট করবে না */
